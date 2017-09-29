@@ -12,7 +12,7 @@ def render_page1():
     
     
 
-@app.route("p2")
+@app.route("/p2")
 def render_page2():
     return render_template("page2.html")
     
